@@ -1,0 +1,156 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  padding: 60px 60px 60px 30px;
+  margin-left: 130px;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 80%;
+}
+
+.wrapper h1 {
+  font-weight: 600;
+}
+
+.wrapper hr {
+  border-color: #4ab4de55;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.firstSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+
+.dpContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.editDP {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #283d5a;
+  color: white;
+  border: none;
+  bottom: 8px;
+  left: 8px;
+  font-size: 14px;
+}
+
+.edits {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.edits a svg {
+  margin-right: 10px;
+}
+
+.edits textarea {
+  display: flex;
+  resize: none;
+  width: 80%;
+  font-family: 'Poppins';
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 0.5px #4ab4de;
+  background: #283d5a8f;
+  color: #eedbcc;
+  margin: 5px 0;
+}
+
+.edits textarea:focus {
+  border: #283d5a;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.socialLinkContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  font-size: 22px;
+}
+
+.socialLinkContainer textarea {
+  width: 100%;
+}
+
+.agree input {
+  margin-right: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #283d5a;
+  color: white;
+  font-size: 16px;
+  font-family: 'Poppins';
+}
+
+.delete {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.delete h1 {
+  color: #f63127;
+}
+
+.secondSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+  gap: 20px;
+  color: #eedbcc;
+}
+
+.secondSection .btn {
+  color: #f63127;
+}

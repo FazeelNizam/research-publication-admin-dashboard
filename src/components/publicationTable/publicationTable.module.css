@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.datatable {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffffef;
+}
+
+.datatable div {
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.datatable svg {
+  color: rgb(0, 0, 0);
+}
+
+.datatable button {
+  color: rgb(41, 41, 41);
+  padding: 5px 20px;
+}
+
+.cellWithImg {
+  display: flex;
+  align-items: center;
+}
+
+.cellImg {
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-wrap: wrap;
+  font-weight: 500;
+  width: 330px;
+  height: 80px;
+}
+
+.cellAction {
+  display: flex;
+  gap: 20px;
+}
+
+.viewButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+  background: #4ab4de;
+  cursor: pointer;
+}
+
+.editButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+  background: #4ab4de;
+  cursor: pointer;
+}
+
+.deleteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+  background: crimson;
+  cursor: pointer;
+}
